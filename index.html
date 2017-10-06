@@ -109,6 +109,7 @@
       var $menu = document.getElementById('menu');
 
       $burguerButton.addEventListener('touchstart', toggleMenu);
+      $burguerButton.addEventListener('click', toggleMenu);
 
       function toggleMenu(){
         $menu.classList.toggle('active')
