@@ -328,6 +328,7 @@ position: absolute;
 left: 20px;
 top: 20px;
 z-index: 3;
+display: none;
 }
 
 @media screen and (max-width: 800px) {
@@ -446,6 +447,9 @@ input[type="checkbox"] {
   position: static;
 }
 
+.burguer-button {
+  display: block;
+}
 .menu {
   background: rgba(255, 60, 88, .8);
   position: absolute;
